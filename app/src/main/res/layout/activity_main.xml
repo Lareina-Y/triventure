@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Author(s): Lareina Yang-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Displays background image of a world map as an ImageView-->
+    <!--Attribution: the map image used for the main activity was made by user, phich2612 on Freepik
+     (Link: https://www.freepik.com/premium-vector/cartoon-pirate-treasure-map-game_18372891.htm#query=game%20map&position=11&from_view=search&track=ais)-->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/map"
+        android:scaleType="centerCrop" />
+
+    <!--Displays welcome message as a TextView-->
+    <TextView
+        android:id="@+id/main_textView"
+        style="@style/TransparentTextBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/welcome_to_triventure"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <!--Displays the MainActivity's "Start" button-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_textView"
+        app:layout_constraintVertical_bias="0.82" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

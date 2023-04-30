@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Triventure</string>
+    <string name="title_activity_main">Welcome</string>
+    <string name="title_activity_level">Level Select</string>
+    <string name="title_activity_question">Questions</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_results">ResultsActivity</string>
+
+    <string name="continue_button">continue</string>
+    <string name="start">start</string>
+    <string name="proceed_to_next_level">Proceed to Next Level</string>
+    <string name="back_to_level_select">Back to Level Select</string>
+    <string name="no_more_levels">Congratulations! No more levels are available!</string>
+    <string name="pause">Pause</string>
+    <string name="welcome_to_triventure">Welcome to Triventure!</string>
+    <string name="level_name">Level name</string>
+    <string name="highest_score">Highest score</string>
+
+</resources>

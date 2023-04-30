@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textSize">20sp</item>
+        <!-- add any other custom attributes for your dialog style -->
+    </style>
+
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_background</item>
+        <item name="android:dropDownVerticalOffset">-32dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TransparentTextBox" parent="Widget.AppCompat.TextView">
+        <item name="android:background">#A0FFFFFF</item>
+    </style>
+
+</resources>
+
+<!--    @android:color/transparent-->

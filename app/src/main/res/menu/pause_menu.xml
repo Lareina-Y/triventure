@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_main_activity"
+        android:title="Main Menu" />
+    <item
+        android:id="@+id/menu_item_level_activity"
+        android:title="Level Select" />
+    <item
+        android:id="@+id/menu_item_restart_level"
+        android:title="Restart Level" />
+    <item
+        android:id="@+id/menu_item_resume"
+        android:title="Resume" />
+
+</menu>
